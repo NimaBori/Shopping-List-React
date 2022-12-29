@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {  
+ height: 170px; 
+ position: relative;
+ display: flex;
+ flex-direction: column;  
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  width: 50%;
+  height: 50px;
+  padding-left: 20px;
+  border: none;
+  background-color: skyblue;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;  
+  font-size: 21px;
+  font-weight: 500;
+}
+
+input:focus {
+  outline: none;
+}
+
+.submit-btn {
+  height: 50px;
+  font-size: 19px;
+  border: none;
+  background-color: aquamarine;
+  font-weight: 700;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding: 0 20px 0 10px;
+}
+
+.list-container {  
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+.list-items { 
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 10px;
+  background-color: bisque;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 25px;  
+}
+
+.edit-btn {
+  color: green;
+  border: none;
+  background: transparent;
+  margin-right: 5px;
+  opacity: 60%;
+  transition: opacity 0.3s;
+}
+
+.edit-btn:hover {
+  opacity: 100%;
+}
+
+.delete-btn {
+  color: crimson;
+  border: none;
+  background: transparent;
+  opacity: 60%;
+  transition: opacity 0.3s;
+}
+
+.delete-btn:hover {
+  opacity: 100%;
+}
+
+.remove {
+  cursor: pointer;
+}
+
+.alert {  
+  font-size: 18px;  
+  
+}
